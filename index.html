@@ -3,22 +3,32 @@
 <head>
     <meta name="description" content="The home page to my first ever website.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
     <title>authentic handmade gitars</title>
 </head>
 
 <body>
+    <nav>
+        <section>
+            <h1>Gitar kings</h1>
+        </section>
+        <section>
+            <ul>
+                <a href="index.html"><li>home</li></a>
+                <a href="gitars.html"><li>gitars</li></a>
+                <a href="contact.html"><li>contact</li></a>
+            </ul>
+        </section>
+       
+    </nav>
     <header>
-        <a href="">gitar kings</a>
-        <ul>
-            <a href="index.html"><li>home</li></a>
-            <a href="gitars.html"><li>gitars</li></a>
-            <a href="contact.html"><li>contact</li></a>
-        </ul>
-        <h1>authentic handmade gitars</h1>
+        <img src="images/home-header.jpg" alt="">
+        <h2>authentic handmade gitars</h2>
+        <a href="gitars.html">view gitars</a>
     </header>
      <main>
-        <a href="gitars.html">view gitars</a>
-        <h2>our gitars are:</h2>
+       
+        <h3>our gitars are:</h3>
         <ul>
             <li>made with real pennsylvanian wood</li>
             <li>crafted by family run business</li>
@@ -29,35 +39,45 @@
 
         <img src="images/home-info.jpg" alt="hand strung gitars">
        
+        <section class="review">
+            <h3>reviews</h3>
+            <p>" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolor?"" </p>
+            <img src="images/review-bio.jpg" alt="profile pic of pojaesf">
+            <p>" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolor?"" </p>
+            <img src="images/review-bio2.jpg" alt="profile pic of pojaesf">
+        </section>  
 
-        <h2>reviews</h2>
-        <p>" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolor?"" </p>
-        <img src="images/review-bio.jpg" alt="profile pic of pojaesf">
-        <p>" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, dolor?"" </p>
-        <img src="images/review-bio2.jpg" alt="profile pic of pojaesf">
-       
-
-        <h2>view our gitars</h2>
-        <div>
-            <img src="images/product.jpg" alt="adirondack red">
-            <h3>adirondack red</h3>
-            <p>$500</p>
-            <a href="gitars/adirondack-red.html">view</a>
-        </div>
-        <div>
-            <img src="images/product.jpg" alt="adirondack red">
-            <h3>adirondack red</h3>
-            <p>$500</p>
-            <a href="gitars/adirondack-red.html">view</a>
-        </div>
-        <div>
-            <img src="images/product.jpg" alt="adirondack red">
-            <h3>adirondack red</h3>
-            <p>$500</p>
-            <a href="gitars/adirondack-red.html">view</a>
-        </div>
-    
+        <section>
+            <h3>view our gitars</h3>
+            <div class="gitarList">
+                <img src="images/product.jpg" alt="adirondack red">
+                <h3>adirondack red</h3>
+                <p>$500</p>
+                <a href="gitars/adirondack-red.html">view</a>
+            </div>
+            <div class="gitarList">
+                <img src="images/product.jpg" alt="adirondack red">
+                <h3>adirondack red</h3>
+                <p>$500</p>
+                <a id="active" href="gitars/adirondack-red.html">on sale</a>
+            </div>
+            <div class="gitarList">
+                <img src="images/product.jpg" alt="adirondack red">
+                <h3>adirondack red</h3>
+                <p>$500</p>
+                <a href="gitars/adirondack-red.html">view</a>
+            </div>
+            <div class="gitarList">
+                <img src="images/product.jpg" alt="adirondack red">
+                <h3>adirondack red</h3>
+                <p>$500</p>
+                <a href="gitars/adirondack-red.html">view</a>
+            </div>
+        </section>
      </main> 
+     <footer>
+         <p>copyright &copy;</p>
+     </footer>
     
     
 </body>

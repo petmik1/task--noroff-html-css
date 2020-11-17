@@ -1,0 +1,19 @@
+nav,
+nav ul li,
+footer {
+	background-color: #202020;
+	color: #fff;
+}
+a {
+	background-color: #bb0000;
+	border-radius: 5px;
+}
+#active {
+	background-color: #127300;
+}
+.review {
+	background-color: #e8e8e8;
+}
+.gitarList {
+	background-color: #fbfbfb;
+}
