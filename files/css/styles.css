@@ -2,10 +2,20 @@
 	font-family: "BootsAndSpurs";
 	src: url(../fonts/BootsAndSpurs.ttf) format("truetype");
 }
-#header {
+header {
+	background-color: #202020;
+	color: #fff;
+}
+.welcome {
 	background-image: url("../images/home-header.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: bottom;
+	min-height: 70vh;
+}
+.highlight {
+	text-decoration: underline;
 }
 h1,
 h2,
@@ -19,9 +29,10 @@ footer {
 	background-color: #202020;
 	color: #fff;
 }
-a {
+div a {
 	background-color: #bb0000;
 	border-radius: 5px;
+	text-decoration: none;
 }
 #active {
 	background-color: #127300;
@@ -41,34 +52,16 @@ footer {
 .img-review {
 	border-radius: 100%;
 }
-.active {
-	text-decoration: underline;
-}
-ul {
+nav ul {
 	padding: 0px;
 }
-li {
-	display: inline;
+nav li {
+	display: inline-block;
 }
-nav a {
-	padding: 10px;
-	background-color: #202020;
-	border-radius: 0px;
+nav li a {
 	color: #fff;
 }
-nav {
-	display: none;
-}
-#hamburger-menu {
-	display: none;
-}
-#hamburger-menu:checked ~ nav {
-	display: block;
-}
-#hamburger-label {
-	float: right;
-	color: #202020;
-	padding: 10px;
-	font-size: 1.5em;
-	display: block;
+/* links */
+a {
+	text-decoration: none;
 }
