@@ -24,6 +24,7 @@ h3 {
 }
 body {
 	font-family: "Roboto", sans-serif;
+	margin: 0;
 }
 footer {
 	background-color: #202020;
@@ -53,7 +54,7 @@ footer {
 	border-radius: 100%;
 }
 nav ul {
-	padding: 0px;
+	padding: 0;
 }
 nav li {
 	display: inline-block;
@@ -64,4 +65,21 @@ nav li a {
 /* links */
 a {
 	text-decoration: none;
+}
+nav ul li a {
+	padding: 0px 10px 0px;
+}
+.cta {
+	background-color: #bb0000;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px 100px;
+	text-transform: uppercase;
+}
+.cta-small {
+	background-color: #bb0000;
+	color: #fff;
+	border-radius: 5px;
+	padding: 15px 20px;
+	text-transform: uppercase;
 }
