@@ -13,14 +13,30 @@
 			</section>
 			<section>
 				<ul>
-					<a href="index.html"><li>home</li></a>
-					<a href="gitars.html"><li>gitars</li></a>
-					<a href="contact.html"><li>contact</li></a>
+					<li> <a href="index.html">home</a> </li>
+					<li><a href="gitars.html">gitars</a></li>
+					<li><a href="contact.html" class="active">contact</a></li>
 				</ul>
 			</section>
 		</nav>
 		<header>
 			<h1>contact</h1>
 		</header>
+		<main>
+			<form action="contact-comlete.php" method="POST">
+				<label for="name">Full name </label>
+				<input type="text" name="name">
+				<label for="email">Email</label>
+				<input type="text" name="email">
+				<label for="gitar">gitar</label>
+				<select name="gitar">
+					<option value="Adiondack Red">Adiondack Red</option>
+				</select>
+				<label for="email-updates">sign up for email updates</label>
+				<input type="checkbox" name="email-updates">
+				<label for="message">message</label>
+				<textarea name="message" cols="30" rows="10"></textarea>
+			</form>
+		</main>
 	</body>
 </html>

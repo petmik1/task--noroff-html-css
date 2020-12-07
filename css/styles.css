@@ -2,6 +2,11 @@
 	font-family: "BootsAndSpurs";
 	src: url(../fonts/BootsAndSpurs.ttf) format("truetype");
 }
+#header {
+	background-image: url("../images/home-header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 h1,
 h2,
 h3 {
@@ -10,9 +15,6 @@ h3 {
 body {
 	font-family: "Roboto", sans-serif;
 }
-
-nav,
-nav ul li,
 footer {
 	background-color: #202020;
 	color: #fff;
@@ -32,4 +34,41 @@ a {
 }
 footer {
 	text-align: center;
+}
+.img-our-gitar {
+	border-radius: 5%;
+}
+.img-review {
+	border-radius: 100%;
+}
+.active {
+	text-decoration: underline;
+}
+ul {
+	padding: 0px;
+}
+li {
+	display: inline;
+}
+nav a {
+	padding: 10px;
+	background-color: #202020;
+	border-radius: 0px;
+	color: #fff;
+}
+nav {
+	display: none;
+}
+#hamburger-menu {
+	display: none;
+}
+#hamburger-menu:checked ~ nav {
+	display: block;
+}
+#hamburger-label {
+	float: right;
+	color: #202020;
+	padding: 10px;
+	font-size: 1.5em;
+	display: block;
 }
