@@ -51,10 +51,7 @@ div a {
 #active {
 	background-color: #127300;
 }
-.review {
-	background-color: #e8e8e8;
-	text-align: center;
-}
+
 .gitarList {
 	background-color: #fbfbfb;
 }
@@ -68,6 +65,7 @@ footer {
 .img-review {
 	border-radius: 100%;
 	width: 80px;
+	float: right;
 }
 nav ul {
 	padding: 0;
@@ -99,10 +97,12 @@ nav ul li a {
 	padding: 15px 20px;
 	text-transform: uppercase;
 }
+.selling-point {
+	margin: 50px auto;
+}
 
 .selling-point,
 .review-content {
-	margin: 50px auto;
 	max-width: 1000px;
 	display: flex;
 }
@@ -110,6 +110,18 @@ nav ul li a {
 .review-content > * {
 	flex: 1;
 }
+.review {
+	background-color: #e8e8e8;
+	text-align: center;
+	padding: 50px;
+}
 .review-content {
 	text-align: left;
+	margin: auto;
+}
+.reviews_name {
+	display: block;
+}
+.review-content div {
+	margin: 50px;
 }
