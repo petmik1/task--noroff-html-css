@@ -5,6 +5,11 @@
 header {
 	background-color: #202020;
 	color: #fff;
+	display: flex;
+	align-items: center;
+}
+nav {
+	margin-left: 25px;
 }
 .welcome {
 	background-image: url("../images/home-header.jpg");
@@ -14,6 +19,14 @@ header {
 	background-position-y: bottom;
 	min-height: 70vh;
 }
+.welcome-content {
+	float: left;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	text-align: center;
+}
+
 .highlight {
 	text-decoration: underline;
 }
@@ -40,6 +53,7 @@ div a {
 }
 .review {
 	background-color: #e8e8e8;
+	text-align: center;
 }
 .gitarList {
 	background-color: #fbfbfb;
@@ -49,9 +63,11 @@ footer {
 }
 .img-our-gitar {
 	border-radius: 5%;
+	width: 500px;
 }
 .img-review {
 	border-radius: 100%;
+	width: 80px;
 }
 nav ul {
 	padding: 0;
@@ -82,4 +98,18 @@ nav ul li a {
 	border-radius: 5px;
 	padding: 15px 20px;
 	text-transform: uppercase;
+}
+
+.selling-point,
+.review-content {
+	margin: 50px auto;
+	max-width: 1000px;
+	display: flex;
+}
+.selling-point > *,
+.review-content > * {
+	flex: 1;
+}
+.review-content {
+	text-align: left;
 }
