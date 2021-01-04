@@ -51,10 +51,20 @@ div a {
 #active {
 	background-color: #127300;
 }
-
-.gitarList {
+.product {
 	background-color: #fbfbfb;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
 }
+.product img {
+	grid-column: -1/1;
+}
+.productn h3,
+.product p {
+	grid-column: 1;
+}
+
 footer {
 	text-align: center;
 }
@@ -97,8 +107,12 @@ nav ul li a {
 	background-color: #bb0000;
 	color: #fff;
 	border-radius: 5px;
-	padding: 15px 20px;
+	padding: 8px 15px;
 	text-transform: uppercase;
+	grid-column: 2;
+	grid-row: 2/4;
+	min-width: 64.0167px;
+	text-align: center;
 }
 .selling-point {
 	margin: 50px auto;
@@ -132,7 +146,7 @@ nav ul li a {
 .product-specific {
 	display: flex;
 	max-width: 1000px;
-	margin: auto;
+	margin: 5em auto;
 }
 .product-specific > * {
 	flex: 1;
@@ -177,4 +191,21 @@ textarea {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+}
+
+.featured {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	max-width: 1000px;
+	margin: 50px auto;
+	grid-gap: 10px;
+}
+.featured h3 {
+	grid-column: -1/1;
+	grid-row: 2;
+	font-family: "Roboto", sans-serif;
+	margin: 5px;
+}
+.featured img {
+	width: 100%;
 }
