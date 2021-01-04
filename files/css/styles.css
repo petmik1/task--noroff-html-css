@@ -38,10 +38,14 @@ h3 {
 body {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
 }
 footer {
 	background-color: #202020;
 	color: #fff;
+	padding: 20px;
 }
 div a {
 	background-color: #bb0000;
@@ -173,7 +177,6 @@ textarea {
 	border-radius: 5px;
 	margin: 10px 10px 10px 0;
 	padding: 10px;
-	height: ;
 }
 textarea {
 	height: 100%;
@@ -208,4 +211,18 @@ textarea {
 }
 .featured img {
 	width: 100%;
+}
+
+/* gitars-page */
+.gitars-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.product img {
+	width: 100%;
+}
+.gitars {
+	max-width: 1000px;
+	margin: auto;
 }
