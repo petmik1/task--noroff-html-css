@@ -89,6 +89,9 @@ nav ul li a {
 	border-radius: 5px;
 	padding: 20px 100px;
 	text-transform: uppercase;
+	display: block;
+	width: 95.767px;
+	margin: auto;
 }
 .cta-small {
 	background-color: #bb0000;
@@ -124,4 +127,24 @@ nav ul li a {
 }
 .review-content div {
 	margin: 50px;
+}
+/* product specific page */
+.product-specific {
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+}
+.product-specific > * {
+	flex: 1;
+}
+.product-image {
+	width: 100%;
+}
+.product-image__thumbnail {
+	display: flex;
+	gap: 10px;
+	margin-top: 5px;
+}
+.product-specific__text {
+	padding: 0 30px;
 }
