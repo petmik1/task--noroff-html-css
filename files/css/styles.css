@@ -83,13 +83,13 @@ footer {
 }
 nav ul {
 	padding: 0;
+	text-decoration: none;
 }
-nav li {
-	display: inline-block;
-}
+
 nav li a {
 	color: #fff;
 }
+
 /* links */
 a {
 	text-decoration: none;
@@ -226,3 +226,20 @@ textarea {
 	max-width: 1000px;
 	margin: auto;
 }
+
+/* mobile styles */
+@media (max-width: 375px) {
+	/* hamburger menu */
+
+}
+
+/* tablet styles
+@media (max-width: 375px) {
+}
+
+/* desktop styles */
+/* @media (min-width: 768) {
+	nav li {
+		display: inline-block;
+	}
+} */ 
