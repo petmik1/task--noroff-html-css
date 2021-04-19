@@ -38,14 +38,10 @@ h3 {
 body {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
-	display: grid;
-	grid-template-rows: auto 1fr auto;
-	min-height: 100vh;
 }
 footer {
 	background-color: #202020;
 	color: #fff;
-	padding: 20px;
 }
 div a {
 	background-color: #bb0000;
@@ -177,6 +173,7 @@ textarea {
 	border-radius: 5px;
 	margin: 10px 10px 10px 0;
 	padding: 10px;
+	height: ;
 }
 textarea {
 	height: 100%;
@@ -212,6 +209,7 @@ textarea {
 .featured img {
 	width: 100%;
 }
+<<<<<<< HEAD
 
 /* gitars-page */
 .gitars-grid {
@@ -243,3 +241,5 @@ textarea {
 		display: inline-block;
 	}
 } */ 
+=======
+>>>>>>> parent of 6e1106c... added grides on to footer and gitars page
